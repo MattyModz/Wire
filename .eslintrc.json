@@ -1,0 +1,7 @@
+{
+  "extends": ["next/core-web-vitals", "google", "prettier"],
+  "rules": {
+    "no-unused-vars": "error",
+    "require-jsdoc": 0
+  }
+}
