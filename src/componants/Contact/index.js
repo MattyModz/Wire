@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { toast } from "react-hot-toast";
 
 export default function Contact() {
-  const [formStatus, setFormStatus] = useState(false);
+  const [setFormStatus] = useState(false);
   const [formValues, setFormValues] = useState({
     fullName: "",
     senderEmail: "",
